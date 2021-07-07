@@ -1,0 +1,413 @@
+:root{
+    --primary-color:#0d9dfa;
+}
+
+.nav-item-a{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 8px;
+    margin: 0 6px;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-item-active{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 12px 8px;
+    margin: 0 6px;
+    border-bottom: 3px solid #0d9dfa;    
+}
+
+.nav-item-a:hover{
+    border-bottom: 3px solid #0d9dfa;
+    transition: border 1s;
+}
+
+/*landing page */
+
+.header-bg{
+    background: url(../images/pexels-kelly-lacy-2869215.jpg) no-repeat center;
+    height: 90vh;
+}
+
+
+.booking-table{
+    position: relative;
+    top: 24rem;
+    padding:2rem 1.5rem;
+    background-color: whitesmoke;
+}
+
+.input-append label{
+    font-size:1.3rem;
+    font-weight:bold;
+    font-weight: bold;
+    padding: 8px 0;
+}
+
+.input-append button{
+    width: 200px;
+    padding:12px 16px;
+    border: 2px solid #0d9dfa;
+}
+
+.form-control{
+    margin-right: 10px;
+    height: 52px;
+    border: 2px solid #0d9dfa;
+}
+
+.dropdown-select{
+    padding: 12px;
+    width: 100%;
+    border: 2px solid #0d9dfa;
+    border-radius: 3px;
+}
+
+.book-btn{
+    border: 2px solid #0d9dfa;
+    background: #0d9dfa;
+    font-size:1rem;
+    font-weight:bold;
+    color:white;
+}
+
+.book-btn:hover{
+    background: white;
+    color: #0d9dfa;
+    border: 2px solid #0d9dfa;
+}
+
+
+/* section */
+.section1{
+  background: #f1e6dc;
+  padding: 36px;
+}
+
+
+.section-header{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center
+}
+
+
+.section-header h1{
+  padding:16px 0; 
+  font-weight: bold;
+}
+
+.section-header p{
+  width: 80%;
+  text-align: center;
+  font-weight: 500;
+  margin: 0 auto;
+  color: #8c8c7b;
+}
+
+.section-body{
+    margin-top:18px;
+}
+
+.section-footer{
+    margin:1rem 0;
+    text-align:center;
+}
+
+.section-footer a{
+      text-decoration: none;
+      font-weight: 500;
+      font-size:24px;
+      color:#000 !important;
+}
+
+.food-bed{
+    padding-right: 12px;
+    color: #8c8c7b;
+}
+.address-location{
+    color: #8c8c7b;
+    font-size: 18px;
+    font-weight:500;
+}
+
+
+/*section2*/
+.booking-btn{
+    padding:10px 16px;
+    background: brown;
+    color:#fff;
+    font-weight:500;
+}
+
+/*section 3*/
+.section3{
+    background: #ebceb3 url(../images/services-bg.jpg) no-repeat center;
+    padding: 62px 0;
+  }
+  
+  
+.services__section-header{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center
+}
+
+.services__section-header h1{
+    padding:16px 0; 
+    font-weight: 700;
+}
+
+.services__section-header p{
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 auto;
+    color: #8c8c7b;
+  }
+  
+
+.services__section-options{
+    width: 60%;
+    margin: 2.5rem auto 0 auto;
+    justify-content: center;
+}
+
+.services__section-option{
+    padding: 12px 2.5rem;
+    background:#f0ddcc;
+}
+
+
+
+
+.services__section-body.active{
+    display: block;
+}
+
+.services__section-right{
+    margin: 12px 0;
+}
+
+
+.btn-color{
+    background: #f8f1eb;
+}
+
+.nav-pills .nav-link.active{
+    color:#000 !important;
+    background: #fff !important;
+}
+
+.btn.focus, .btn:focus{
+    box-shadow:none;
+}
+
+.btn{
+    border-radius: 0 !important;
+}
+/*section 4 */
+
+.section4{
+    background: #d69253 url(../images/pexels-kelly-lacy-2869215.jpg) no-repeat center;
+}
+
+.section-bg{
+    padding:6.5rem 0;
+    background-color: black;
+    opacity: 70%;
+}
+
+
+
+.section3 .section-content  i{
+    font-size: 5rem;
+}
+
+.section-content-h1{
+    font-size:2.5rem;
+    font-weight:bold;
+    color: white;
+}
+
+.section-content-h4{
+    color: white;
+}
+
+@media (max-width: 768px){
+    .section-content{
+        padding:1.5rem 0;
+    }
+
+    .services__section-option{
+        display:none;
+    }
+}
+
+/* section 5 */
+
+.testimonials__section-header{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center
+}
+
+.testimonials__section-header h1{
+    padding:16px 0; 
+    font-weight: 700;
+}
+
+.testimonials__section-header p{
+    width: 80%;
+    text-align: center;
+    font-weight: 500;
+    margin: 0 auto;
+    color: #8c8c7b;
+  }
+
+  .testimonials__section-customer{
+    background-color:#dddddc
+  }
+
+  .customer-msg-icon{
+    color: #412411;
+  }
+  .customer-img{
+    width:50px;
+    height: 50px;
+    border-radius:50%;
+    background: url(../images/UI-face.jpg) no-repeat center;
+    margin:0 12px;
+  }
+  
+
+  @media (max-width: 768px){
+    .testimonials__section-customer-top{
+        margin:1rem 0;
+    }
+  
+  }
+
+
+/*Footer styles */
+
+.footer__text-yellow > p{
+    color:#955a00;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+.footer__last{
+    background: #000;
+}
+
+
+.footer__nav-link{
+    color: #8c8c7b;
+    font-weight:500;
+}
+
+.footer__nav-link:hover{
+    color:#d0d0b4;
+}
+
+.gallery >{
+    margin:0 5px;
+}
+
+/*image zoom in*/
+.zoom{
+    border: 2px solid #0d9dfa;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  transition: 0.5s;
+}
+
+
+.footer_last{
+  background: #000;
+}
+
+.footer_last-heading{
+  color: #8c8c7b;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .footer_last-heading{
+        font-size:16px;
+    }
+    
+    .book-table{
+        display: none;
+    }
+    
+    /*booking table*/
+
+    
+    .header-bg{
+        height: 120vh;
+    }
+    
+    .booking-table{
+        top: 6rem;
+        margin:1rem 0.5rem;
+        
+    }
+    
+    .book-btn{
+        opacity:100%!important;   
+    }
+    
+    .input-append label{
+        font-size:1.3rem;
+        font-weight:bold;
+        font-weight: bold;
+        padding: 4px 0;
+    }
+    
+    .input-append button{
+        width: 300px;
+        padding:7px 16px;
+        border: 2px solid #0d9dfa;
+    }
+    
+    .form-control{
+        margin-right: 10px;
+        height: 52px;
+        border: 2px solid #0d9dfa;
+    }
+    
+    .Location-select{
+        padding: 12px;
+        width: 100%;
+        border: 2px solid #0d9dfa;
+        border-radius: 3px;
+    }
+    
+    .book-btn{
+        margin-top:12px;
+        width: -webkit-fill-available;
+        background: #0d9dfa;
+        font-size:1rem;
+        font-weight:bold;
+        color:white;
+    }
+    
+    .book-btn:hover{
+        background: white;
+        color: #0d9dfa;
+        border: 2px solid #0d9dfa;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+ .small-screen-resposive{
+        display:none !important;
+    }
+ }
